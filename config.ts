@@ -1,5 +1,5 @@
 import { Field } from 'payload/types';
-import InputField from './InputField';
+import MapsField from './MapsField';
 
 const googleMapsField: Field = {
   name: 'googleMaps',
@@ -7,7 +7,7 @@ const googleMapsField: Field = {
   required: true,
   admin: {
     components: {
-      Field: InputField
+      Field: MapsField
     },
   }
 };
